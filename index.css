@@ -5,11 +5,6 @@ body, html {
   padding: 0;
 }
 
-.container {
-  max-width: 100%;
-  padding: 0;
-}
-
 :root {
   --bg: #f6faf6;
   --panel: #ffffff;
@@ -21,10 +16,9 @@ body, html {
   --accent-strong: #4d6a53;
 }
 
-.sbti-container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 12px;
+footer {
+  color: #ccc;
+  text-align: center;
 }
 
 .sbti-start {

@@ -302,7 +302,7 @@ const App = ({ questions, specialQuestions, typeDescriptions, typeImages, normal
 };
 
 ready(async () => {
-  const app = document.getElementById('sbti-app');
+  const app = document.getElementById('app');
   try {
     const res = await fetch('./data.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
